@@ -1,0 +1,12 @@
+apiVersion: v1
+description: A Helm chart to automaically unseal Vault.
+name: vault-unsealer
+version: 1.0.0
+appVersion: 1.3.4
+home: https://github.com/trankchung/vault-unsealer.git
+sources:
+  - https://hub.docker.com/r/tranchung/vault-unsealer
+maintainers:
+  - name: Chung Tran
+    email: chung.k.tran@gmail.com
+
